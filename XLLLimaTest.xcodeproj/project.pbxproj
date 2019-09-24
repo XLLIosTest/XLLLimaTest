@@ -104,17 +104,10 @@
 		A932D1552339FCEA001ECA09 /* XLLLimaTest */ = {
 			isa = PBXGroup;
 			children = (
-				A932D1562339FCEA001ECA09 /* AppDelegate.h */,
-				A932D1572339FCEA001ECA09 /* AppDelegate.m */,
-				A932D1592339FCEA001ECA09 /* SceneDelegate.h */,
-				A932D15A2339FCEA001ECA09 /* SceneDelegate.m */,
+				A932D1CD233A0577001ECA09 /* SupportingFiles */,
+				A932D18B233A0353001ECA09 /* AppDelegate */,
 				A932D15C2339FCEA001ECA09 /* ViewController.h */,
 				A932D15D2339FCEA001ECA09 /* ViewController.m */,
-				A932D15F2339FCEA001ECA09 /* Main.storyboard */,
-				A932D1622339FCEB001ECA09 /* Assets.xcassets */,
-				A932D1642339FCEB001ECA09 /* LaunchScreen.storyboard */,
-				A932D1672339FCEB001ECA09 /* Info.plist */,
-				A932D1682339FCEB001ECA09 /* main.m */,
 			);
 			path = XLLLimaTest;
 			sourceTree = "<group>";
@@ -135,6 +128,29 @@
 				A932D17F2339FCEC001ECA09 /* Info.plist */,
 			);
 			path = XLLLimaTestUITests;
+			sourceTree = "<group>";
+		};
+		A932D18B233A0353001ECA09 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A932D1562339FCEA001ECA09 /* AppDelegate.h */,
+				A932D1572339FCEA001ECA09 /* AppDelegate.m */,
+				A932D1592339FCEA001ECA09 /* SceneDelegate.h */,
+				A932D15A2339FCEA001ECA09 /* SceneDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A932D1CD233A0577001ECA09 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A932D15F2339FCEA001ECA09 /* Main.storyboard */,
+				A932D1622339FCEB001ECA09 /* Assets.xcassets */,
+				A932D1642339FCEB001ECA09 /* LaunchScreen.storyboard */,
+				A932D1672339FCEB001ECA09 /* Info.plist */,
+				A932D1682339FCEB001ECA09 /* main.m */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
