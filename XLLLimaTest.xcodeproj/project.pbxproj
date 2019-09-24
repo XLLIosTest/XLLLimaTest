@@ -16,6 +16,26 @@
 		A932D1692339FCEB001ECA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D1682339FCEB001ECA09 /* main.m */; };
 		A932D1732339FCEB001ECA09 /* XLLLimaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D1722339FCEB001ECA09 /* XLLLimaTestTests.m */; };
 		A932D17E2339FCEB001ECA09 /* XLLLimaTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D17D2339FCEB001ECA09 /* XLLLimaTestUITests.m */; };
+		A932D22A233A0E15001ECA09 /* LMColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D209233A0E15001ECA09 /* LMColumnView.swift */; };
+		A932D22B233A0E15001ECA09 /* LMBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D20B233A0E15001ECA09 /* LMBoxView.m */; };
+		A932D22C233A0E15001ECA09 /* LMScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D20C233A0E15001ECA09 /* LMScrollView.swift */; };
+		A932D22D233A0E15001ECA09 /* LMSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D20D233A0E15001ECA09 /* LMSpacer.m */; };
+		A932D22E233A0E15001ECA09 /* LMAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D20E233A0E15001ECA09 /* LMAnchorView.swift */; };
+		A932D22F233A0E15001ECA09 /* LMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D211233A0E15001ECA09 /* LMScrollView.m */; };
+		A932D230233A0E15001ECA09 /* LMRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D212233A0E15001ECA09 /* LMRowView.swift */; };
+		A932D231233A0E15001ECA09 /* LMAnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D213233A0E15001ECA09 /* LMAnchorView.m */; };
+		A932D232233A0E15001ECA09 /* LMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D215233A0E15001ECA09 /* LMTableViewCell.swift */; };
+		A932D233233A0E15001ECA09 /* LMRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D216233A0E15001ECA09 /* LMRowView.m */; };
+		A932D234233A0E15001ECA09 /* LMLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D218233A0E15001ECA09 /* LMLayoutView.swift */; };
+		A932D235233A0E15001ECA09 /* LMTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D219233A0E15001ECA09 /* LMTableViewHeaderFooterView.swift */; };
+		A932D236233A0E15001ECA09 /* UIKit+Lima.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D21C233A0E15001ECA09 /* UIKit+Lima.swift */; };
+		A932D237233A0E15001ECA09 /* LMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D21E233A0E15001ECA09 /* LMCollectionViewCell.m */; };
+		A932D238233A0E15001ECA09 /* LMLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D21F233A0E15001ECA09 /* LMLayoutView.m */; };
+		A932D239233A0E15001ECA09 /* LMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D222233A0E15001ECA09 /* LMTableViewCell.m */; };
+		A932D23A233A0E15001ECA09 /* LMSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D224233A0E15001ECA09 /* LMSpacer.swift */; };
+		A932D23B233A0E15001ECA09 /* LMColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D226233A0E15001ECA09 /* LMColumnView.m */; };
+		A932D23C233A0E15001ECA09 /* LMTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D227233A0E15001ECA09 /* LMTableViewHeaderFooterView.m */; };
+		A932D23E233A0E15001ECA09 /* UIKit+Lima.m in Sources */ = {isa = PBXBuildFile; fileRef = A932D229233A0E15001ECA09 /* UIKit+Lima.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +74,39 @@
 		A932D1792339FCEB001ECA09 /* XLLLimaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLLimaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A932D17D2339FCEB001ECA09 /* XLLLimaTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLLimaTestUITests.m; sourceTree = "<group>"; };
 		A932D17F2339FCEC001ECA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A932D209233A0E15001ECA09 /* LMColumnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMColumnView.swift; sourceTree = "<group>"; };
+		A932D20A233A0E15001ECA09 /* LMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCollectionViewCell.h; sourceTree = "<group>"; };
+		A932D20B233A0E15001ECA09 /* LMBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBoxView.m; sourceTree = "<group>"; };
+		A932D20C233A0E15001ECA09 /* LMScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMScrollView.swift; sourceTree = "<group>"; };
+		A932D20D233A0E15001ECA09 /* LMSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSpacer.m; sourceTree = "<group>"; };
+		A932D20E233A0E15001ECA09 /* LMAnchorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAnchorView.swift; sourceTree = "<group>"; };
+		A932D20F233A0E15001ECA09 /* LMLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLayoutView.h; sourceTree = "<group>"; };
+		A932D210233A0E15001ECA09 /* Lima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lima.h; sourceTree = "<group>"; };
+		A932D211233A0E15001ECA09 /* LMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMScrollView.m; sourceTree = "<group>"; };
+		A932D212233A0E15001ECA09 /* LMRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMRowView.swift; sourceTree = "<group>"; };
+		A932D213233A0E15001ECA09 /* LMAnchorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAnchorView.m; sourceTree = "<group>"; };
+		A932D214233A0E15001ECA09 /* LMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTableViewCell.h; sourceTree = "<group>"; };
+		A932D215233A0E15001ECA09 /* LMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMTableViewCell.swift; sourceTree = "<group>"; };
+		A932D216233A0E15001ECA09 /* LMRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMRowView.m; sourceTree = "<group>"; };
+		A932D217233A0E15001ECA09 /* UIKit+Lima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+Lima.h"; sourceTree = "<group>"; };
+		A932D218233A0E15001ECA09 /* LMLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLayoutView.swift; sourceTree = "<group>"; };
+		A932D219233A0E15001ECA09 /* LMTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		A932D21A233A0E15001ECA09 /* LMColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMColumnView.h; sourceTree = "<group>"; };
+		A932D21B233A0E15001ECA09 /* LMTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		A932D21C233A0E15001ECA09 /* UIKit+Lima.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Lima.swift"; sourceTree = "<group>"; };
+		A932D21D233A0E15001ECA09 /* LMBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBoxView.h; sourceTree = "<group>"; };
+		A932D21E233A0E15001ECA09 /* LMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCollectionViewCell.m; sourceTree = "<group>"; };
+		A932D21F233A0E15001ECA09 /* LMLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLayoutView.m; sourceTree = "<group>"; };
+		A932D220233A0E15001ECA09 /* LMSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSpacer.h; sourceTree = "<group>"; };
+		A932D221233A0E15001ECA09 /* LMRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMRowView.h; sourceTree = "<group>"; };
+		A932D222233A0E15001ECA09 /* LMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTableViewCell.m; sourceTree = "<group>"; };
+		A932D223233A0E15001ECA09 /* LMAnchorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAnchorView.h; sourceTree = "<group>"; };
+		A932D224233A0E15001ECA09 /* LMSpacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMSpacer.swift; sourceTree = "<group>"; };
+		A932D225233A0E15001ECA09 /* LMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMScrollView.h; sourceTree = "<group>"; };
+		A932D226233A0E15001ECA09 /* LMColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMColumnView.m; sourceTree = "<group>"; };
+		A932D227233A0E15001ECA09 /* LMTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		A932D229233A0E15001ECA09 /* UIKit+Lima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIKit+Lima.m"; sourceTree = "<group>"; };
+		A932D241233A0EF1001ECA09 /* XLLLimaTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLLLimaTest-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +157,12 @@
 		A932D1552339FCEA001ECA09 /* XLLLimaTest */ = {
 			isa = PBXGroup;
 			children = (
+				A932D207233A0DDC001ECA09 /* Vendors */,
 				A932D1CD233A0577001ECA09 /* SupportingFiles */,
 				A932D18B233A0353001ECA09 /* AppDelegate */,
 				A932D15C2339FCEA001ECA09 /* ViewController.h */,
 				A932D15D2339FCEA001ECA09 /* ViewController.m */,
+				A932D241233A0EF1001ECA09 /* XLLLimaTest-Bridging-Header.h */,
 			);
 			path = XLLLimaTest;
 			sourceTree = "<group>";
@@ -151,6 +206,53 @@
 				A932D1682339FCEB001ECA09 /* main.m */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A932D207233A0DDC001ECA09 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				A932D208233A0E15001ECA09 /* Lima */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		A932D208233A0E15001ECA09 /* Lima */ = {
+			isa = PBXGroup;
+			children = (
+				A932D209233A0E15001ECA09 /* LMColumnView.swift */,
+				A932D20A233A0E15001ECA09 /* LMCollectionViewCell.h */,
+				A932D20B233A0E15001ECA09 /* LMBoxView.m */,
+				A932D20C233A0E15001ECA09 /* LMScrollView.swift */,
+				A932D20D233A0E15001ECA09 /* LMSpacer.m */,
+				A932D20E233A0E15001ECA09 /* LMAnchorView.swift */,
+				A932D20F233A0E15001ECA09 /* LMLayoutView.h */,
+				A932D210233A0E15001ECA09 /* Lima.h */,
+				A932D211233A0E15001ECA09 /* LMScrollView.m */,
+				A932D212233A0E15001ECA09 /* LMRowView.swift */,
+				A932D213233A0E15001ECA09 /* LMAnchorView.m */,
+				A932D214233A0E15001ECA09 /* LMTableViewCell.h */,
+				A932D215233A0E15001ECA09 /* LMTableViewCell.swift */,
+				A932D216233A0E15001ECA09 /* LMRowView.m */,
+				A932D217233A0E15001ECA09 /* UIKit+Lima.h */,
+				A932D218233A0E15001ECA09 /* LMLayoutView.swift */,
+				A932D219233A0E15001ECA09 /* LMTableViewHeaderFooterView.swift */,
+				A932D21A233A0E15001ECA09 /* LMColumnView.h */,
+				A932D21B233A0E15001ECA09 /* LMTableViewHeaderFooterView.h */,
+				A932D21C233A0E15001ECA09 /* UIKit+Lima.swift */,
+				A932D21D233A0E15001ECA09 /* LMBoxView.h */,
+				A932D21E233A0E15001ECA09 /* LMCollectionViewCell.m */,
+				A932D21F233A0E15001ECA09 /* LMLayoutView.m */,
+				A932D220233A0E15001ECA09 /* LMSpacer.h */,
+				A932D221233A0E15001ECA09 /* LMRowView.h */,
+				A932D222233A0E15001ECA09 /* LMTableViewCell.m */,
+				A932D223233A0E15001ECA09 /* LMAnchorView.h */,
+				A932D224233A0E15001ECA09 /* LMSpacer.swift */,
+				A932D225233A0E15001ECA09 /* LMScrollView.h */,
+				A932D226233A0E15001ECA09 /* LMColumnView.m */,
+				A932D227233A0E15001ECA09 /* LMTableViewHeaderFooterView.m */,
+				A932D229233A0E15001ECA09 /* UIKit+Lima.m */,
+			);
+			path = Lima;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,10 +385,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A932D236233A0E15001ECA09 /* UIKit+Lima.swift in Sources */,
 				A932D15E2339FCEA001ECA09 /* ViewController.m in Sources */,
+				A932D235233A0E15001ECA09 /* LMTableViewHeaderFooterView.swift in Sources */,
+				A932D22C233A0E15001ECA09 /* LMScrollView.swift in Sources */,
+				A932D22A233A0E15001ECA09 /* LMColumnView.swift in Sources */,
+				A932D238233A0E15001ECA09 /* LMLayoutView.m in Sources */,
 				A932D1582339FCEA001ECA09 /* AppDelegate.m in Sources */,
+				A932D234233A0E15001ECA09 /* LMLayoutView.swift in Sources */,
+				A932D239233A0E15001ECA09 /* LMTableViewCell.m in Sources */,
+				A932D233233A0E15001ECA09 /* LMRowView.m in Sources */,
+				A932D22D233A0E15001ECA09 /* LMSpacer.m in Sources */,
+				A932D23E233A0E15001ECA09 /* UIKit+Lima.m in Sources */,
+				A932D230233A0E15001ECA09 /* LMRowView.swift in Sources */,
+				A932D22B233A0E15001ECA09 /* LMBoxView.m in Sources */,
 				A932D1692339FCEB001ECA09 /* main.m in Sources */,
+				A932D23A233A0E15001ECA09 /* LMSpacer.swift in Sources */,
+				A932D23C233A0E15001ECA09 /* LMTableViewHeaderFooterView.m in Sources */,
+				A932D231233A0E15001ECA09 /* LMAnchorView.m in Sources */,
+				A932D237233A0E15001ECA09 /* LMCollectionViewCell.m in Sources */,
+				A932D23B233A0E15001ECA09 /* LMColumnView.m in Sources */,
+				A932D232233A0E15001ECA09 /* LMTableViewCell.swift in Sources */,
 				A932D15B2339FCEA001ECA09 /* SceneDelegate.m in Sources */,
+				A932D22F233A0E15001ECA09 /* LMScrollView.m in Sources */,
+				A932D22E233A0E15001ECA09 /* LMAnchorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,11 +513,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -443,10 +566,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -464,6 +588,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderXLL.XLLLimaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLLLimaTest/XLLLimaTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -481,6 +607,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderXLL.XLLLimaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLLLimaTest/XLLLimaTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -488,6 +616,7 @@
 		A932D1862339FCEC001ECA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
@@ -508,6 +637,7 @@
 		A932D1872339FCEC001ECA09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
@@ -528,6 +658,7 @@
 		A932D1892339FCEC001ECA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
 				INFOPLIST_FILE = XLLLimaTestUITests/Info.plist;
@@ -546,6 +677,7 @@
 		A932D18A2339FCEC001ECA09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
 				INFOPLIST_FILE = XLLLimaTestUITests/Info.plist;
